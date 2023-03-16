@@ -33,7 +33,7 @@
 
         </div>
         <!-- Get cv -->
-        <a href="../assets/img/makhlouf-amini.pdf" download class="w-full mt-auto text-[#9C9C9E]"
+        <a href="../../assets/img/makhlouf_amini.pdf" download class="w-full mt-auto text-[#9C9C9E]"
             :class="show ? 'text-left pl-4' : 'text-center'">
             <i class="fa-solid fa-cloud-arrow-down"></i> <span class="ml-4 text-lg" :class="show ? 'inline' : 'hidden'">My
                 cv</span>

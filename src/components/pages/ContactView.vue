@@ -8,21 +8,21 @@
             <div>
                 <label for="name" class="block mb-2 text-sm font-medium text-gray-300">Name</label>
                 <input type="text" id="name" name="user_name"
-                    class="shadow-sm border text-[gray-900] text-sm rounded-lg focus:border-[#fe8e3d] block w-full p-2.5 bg-[#2A2A2A] border-gray-600 placeholder-gray-400 text-white shadow-sm-light"
+                    class="border text-[gray-900] text-sm rounded-lg focus:border-[#fe8e3d] block w-full p-2.5 bg-[#2A2A2A] border-gray-600 placeholder-gray-400 text-white"
                     placeholder="Your Name" required>
             </div>
             <div>
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-300">Your
                     email</label>
                 <input type="email" id="email" name="user_email"
-                    class="block p-3 w-full text-sm text-[gray-900] rounded-lg border shadow-sm focus:border-[#fe8e3d] bg-[#2A2A2A] border-gray-600 placeholder-gray-400 text-white shadow-sm-light"
+                    class="block p-3 w-full text-sm text-[gray-900] rounded-lg border focus:border-[#fe8e3d] bg-[#2A2A2A] border-gray-600 placeholder-gray-400 text-white"
                     placeholder="name@gmail.com" required>
             </div>
             <div class="sm:col-span-2">
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-400">Your
                     message</label>
                 <textarea id="message" rows="6" name="message"
-                    class="block p-2.5 w-full text-sm text-[gray-900] rounded-lg shadow-sm border focus:border-[#fe8e3d] bg-[#2A2A2A] border-gray-600 placeholder-gray-400 text-white"
+                    class="block p-2.5 w-full text-sm text-[gray-900] rounded-lg border focus:border-[#fe8e3d] bg-[#2A2A2A] border-gray-600 placeholder-gray-400 text-white"
                     placeholder="Leave a comment..."></textarea>
             </div>
             <!-- Button -->
