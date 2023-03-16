@@ -1,7 +1,8 @@
 <template>
     <!-- What i do -->
     <div class="pt-6 flex flex-wrap" id="services">
-        <h1 class="mb-4 text-4xl w-full" style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up" data-aos-duration="1000">My services </h1>
+        <h1 class="mb-4 text-4xl w-full" style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up"
+            data-aos-duration="1000">My services </h1>
 
         <div class="flex flex-wrap">
             <div class="sm:w-1/2 p-4" data-aos="fade-right" data-aos-duration="1000">
@@ -28,7 +29,8 @@
                 </p>
             </div>
 
-            <div class="sm:w-1/2 flex flex-wrap items-center justify-center mt-8 lg:mt-0" data-aos="fade-right" data-aos-duration="1000">
+            <div class="sm:w-1/2 flex flex-wrap items-center justify-center mt-8 lg:mt-0" data-aos="fade-right"
+                data-aos-duration="1000">
                 <div class="mb-2 px-4 py-2 rounded bg-[#241F21] text-white text-xl">
                     2 + Years experience
                 </div>
@@ -39,7 +41,8 @@
 
     <!-- Thech -->
     <div class="pb-6 flex flex-wrap">
-        <h1 class="mb-8 mt-4 text-4xl w-full text-center" style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up" data-aos-duration="1000">Technologie i use </h1>
+        <h1 class="mb-8 mt-4 text-4xl w-full text-center" style="font-family: 'Barnacle Boy', sans-serif;"
+            data-aos="flip-up" data-aos-duration="1000">Technologie i use </h1>
 
         <div class="lg:w-3/4 mx-auto">
             <div class="flex flex-wrap justify-center">
@@ -65,10 +68,11 @@
                     data-aos-duration="2500">Java</div>
             </div>
             <div class="flex flex-wrap justify-center">
-            <div class="ml-2 mb-2 px-4 py-2 rounded bg-[#FD8D3E] text-white text-xl" data-aos="flip-right"
-                data-aos-duration="500">MongoDb</div>
-            <div class="ml-2 mb-2 px-4 py-2 rounded bg-[#252022] text-white text-xl" data-aos="flip-right"
-                data-aos-duration="1000">SQL</div>
+                <div class="ml-2 mb-2 px-4 py-2 rounded bg-[#FD8D3E] text-white text-xl" data-aos="flip-right"
+                    data-aos-duration="500">MongoDb</div>
+                <div class="ml-2 mb-2 px-4 py-2 rounded bg-[#252022] text-white text-xl" data-aos="flip-right"
+                    data-aos-duration="1000">SQL</div>
+            </div>
         </div>
     </div>
-</div></template>
+</template>

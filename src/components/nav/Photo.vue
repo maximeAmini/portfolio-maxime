@@ -45,13 +45,13 @@
                 <h2 class="w-full text-lg text-[#fd6800] font-extrabold">Web Devlopper</h2>
             </div>
             <div class="mt-auto w-full text-xl">
-                <a href="https://web.facebook.com/profile.php?id=100088863112649" target="_blank" ><i
+                <a href="https://web.facebook.com/profile.php?id=100088863112649" target="_blank"><i
                         class="hover:scale-125 hover:text-[#139CF8] ease-in-out duration-300 fa-brands fa-facebook-f"></i></a>
-                <a href="http://www.linkedin.com/in/makhlouf-amini-%200b115619a/" target="_blank" ><i
+                <a href="http://www.linkedin.com/in/makhlouf-amini-%200b115619a/" target="_blank"><i
                         class="hover:scale-125 hover:text-[#0961B8] ease-in-out duration-300 ml-6 fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/maximeAmini" target="_blank" ><i
+                <a href="https://github.com/maximeAmini" target="_blank"><i
                         class="hover:scale-125 hover:text-[#1A1D21] ease-in-out duration-300 ml-6 fa-brands fa-github"></i></a>
-                <a href="#" target="_blank" ><i
+                <a href="#" target="_blank"><i
                         class="hover:scale-125 hover:text-[#1C99E6] ease-in-out duration-300 ml-6 fa-brands fa-twitter"></i></a>
             </div>
         </div>
