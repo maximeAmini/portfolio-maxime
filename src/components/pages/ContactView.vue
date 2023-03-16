@@ -2,7 +2,7 @@
     <!-- Contact -->
     <div class="py-8 px-4 mx-auto max-w-screen-md" id="contact">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white"
-            style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up" data-aos-duration="1000">
+            style="font-family: 'Barnacle Boy', sans-serif" data-aos="flip-up" data-aos-duration="1000">
             <span class="inline-block animate-show-name">
                 <HoverLettre lettre="C" />
             </span>
@@ -60,6 +60,14 @@
                 </button>
             </div>
         </form>
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert" v-if="errors">
+            <strong class="font-bold">an error has occurred,</strong>
+            <span class="block sm:inline sm:ml-4">we apologize for the inconvenience!</span>
+        </div>
+        <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert" v-if="success">
+            <strong class="font-bold">Your message has been successfully sent,</strong>
+            <span class="block sm:inline sm:ml-4">thank you!</span>
+        </div>
     </div>
 </template>
 <script >
@@ -72,12 +80,20 @@ export default {
         ButtonLayout,
         HoverLettre
     },
+    data() {
+        return {
+            'success': false,
+            'errors': false,
+        }
+    },
     methods: {
         sendEmail() {
-            emailjs.sendForm('service_yvebh1m', 'YOUR_TEMPLATE_ID', this.$refs.form, 'YOUR_PUBLIC_KEY')
+            emailjs.sendForm('service_yvebh1m', 'template_00c13jq', this.$refs.form, 'h-AmvqUdPCyx9HBWB')
                 .then((result) => {
+                    this.success = true
                     console.log('SUCCESS!', result.text);
                 }, (error) => {
+                    this.errors = true
                     console.log('FAILED...', error.text);
                 });
         }
