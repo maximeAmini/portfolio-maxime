@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "aos": "^2.3.4",
     "vue": "^3.2.47"
   },
