@@ -9,6 +9,8 @@
             <hr class="border-gray-600" />
             <Services />
             <hr class="border-gray-600" />
+        <Projects />
+        <hr class="border-gray-600" />
         </div>
     </div>
 </template>
@@ -18,6 +20,7 @@ import Nav from "./components/nav/Nav.vue";
 import Photo from "./components/nav/Photo.vue";
 import About from "./components/pages/AboutView.vue";
 import Services from "./components/pages/ServicesView.vue";
+import Projects from "./components/pages/ProjectsView.vue";
 
 import {
     onMounted
