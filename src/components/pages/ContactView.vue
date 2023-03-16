@@ -2,7 +2,34 @@
     <!-- Contact -->
     <div class="py-8 px-4 mx-auto max-w-screen-md" id="contact">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white"
-            style="font-family: 'Barnacle Boy', sans-serif;" data-aos="fade-down" data-aos-duration="1000">Contact Me
+            style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up" data-aos-duration="1000">
+            <span class="inline-block animate-show-name">
+                <HoverLettre lettre="C" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.1s;">
+                <HoverLettre lettre="o" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.2s;">
+                <HoverLettre lettre="n" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.3s;">
+                <HoverLettre lettre="t" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.4s;">
+                <HoverLettre lettre="a" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="c" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="t" />
+            </span>
+            <span class="inline-block animate-show-name ml-4" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="m" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="e" />
+            </span>
         </h2>
         <form form ref="form" @submit.prevent="sendEmail" class="space-y-8">
             <div>
@@ -37,11 +64,13 @@
 </template>
 <script >
 import ButtonLayout from "@/components/layouts/ButtonLayout.vue";
+import HoverLettre from "@/components/layouts/HoverLetter.vue";
 import emailjs from '@emailjs/browser';
 
 export default {
     components: {
-        ButtonLayout
+        ButtonLayout,
+        HoverLettre
     },
     methods: {
         sendEmail() {

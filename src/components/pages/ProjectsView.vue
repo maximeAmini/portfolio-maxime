@@ -4,7 +4,47 @@
         <!-- Title & button -->
         <div class="flex items-center">
             <h1 class="text-4xl w-1/2 " style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up"
-                data-aos-duration="1000">Latest Projects</h1>
+                data-aos-duration="1000">
+                <span class="inline-block animate-show-name">
+                    <HoverLettre lettre="L" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.1s;">
+                    <HoverLettre lettre="a" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.2s;">
+                    <HoverLettre lettre="t" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.3s;">
+                    <HoverLettre lettre="e" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.4s;">
+                    <HoverLettre lettre="s" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="t" />
+                </span>
+                <span class="inline-block animate-show-name ml-4" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="P" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="r" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="o" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="j" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="c" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="t" />
+                </span>
+                <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                    <HoverLettre lettre="s" />
+                </span>
+            </h1>
             <div class="ml-3 w-1/2 relative flex items-center justify-end">
                 <Dropdown align="right" width="48">
                     <template #trigger>
@@ -80,8 +120,8 @@
             <!-- Second Line -->
             <div class="flex flex-wrap px-8">
 
-                <a class="mx-auto lg:mx-0 group block" href="https://github.com/maximeAmini/Doc-App" target="_blank" data-aos="zoom-in"
-                    data-aos-duration="500">
+                <a class="mx-auto lg:mx-0 group block" href="https://github.com/maximeAmini/Doc-App" target="_blank"
+                    data-aos="zoom-in" data-aos-duration="500">
                     <div
                         class="h-52 w-52 bg-[url('./img/doc.png')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end mt-8 justify-end">
                         <div
@@ -105,8 +145,8 @@
                         style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Smart Grid Simulation API</h4>
                 </a>
 
-                <a class="mx-auto lg:mx-0 group block" href="https://github.com/maximeAmini?tab=repositories" target="_blank" data-aos="zoom-in"
-                    data-aos-duration="2000">
+                <a class="mx-auto lg:mx-0 group block" href="https://github.com/maximeAmini?tab=repositories"
+                    target="_blank" data-aos="zoom-in" data-aos-duration="2000">
                     <div
                         class="h-52 w-52 bg-[url('./img/other.jpg')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end justify-end mt-8 lg:mt-28 lg:ml-auto">
                         <div
@@ -125,10 +165,12 @@
 
 <script>
 import Dropdown from "@/Components/layouts/DropdownLayout.vue";
+import HoverLettre from "@/components/layouts/HoverLetter.vue";
 
 export default ({
     components: {
-        Dropdown
+        Dropdown,
+        HoverLettre
     },
 })
 </script>

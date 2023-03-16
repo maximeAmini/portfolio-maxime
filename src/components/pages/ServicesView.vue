@@ -2,7 +2,38 @@
     <!-- What i do -->
     <div class="pt-6 flex flex-wrap" id="services">
         <h1 class="mb-4 text-4xl w-full" style="font-family: 'Barnacle Boy', sans-serif;" data-aos="flip-up"
-            data-aos-duration="1000">My services </h1>
+            data-aos-duration="1000">
+            <span class="inline-block animate-show-name">
+                <HoverLettre lettre="M" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.1s;">
+                <HoverLettre lettre="y" />
+            </span>
+            <span class="inline-block animate-show-name ml-4" style="animation-duration: 1.2s;">
+                <HoverLettre lettre="s" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.3s;">
+                <HoverLettre lettre="e" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.4s;">
+                <HoverLettre lettre="r" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="v" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="i" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="c" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="e" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="s" />
+            </span>
+        </h1>
 
         <div class="flex flex-wrap">
             <div class="sm:w-1/2 p-4" data-aos="fade-right" data-aos-duration="1000">
@@ -42,7 +73,47 @@
     <!-- Thech -->
     <div class="pb-6 flex flex-wrap">
         <h1 class="mb-8 mt-4 text-4xl w-full text-center" style="font-family: 'Barnacle Boy', sans-serif;"
-            data-aos="flip-up" data-aos-duration="1000">Technologie i use </h1>
+            data-aos="flip-up" data-aos-duration="1000">
+            <span class="inline-block animate-show-name">
+                <HoverLettre lettre="T" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.1s;">
+                <HoverLettre lettre="e" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.2s;">
+                <HoverLettre lettre="c" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.3s;">
+                <HoverLettre lettre="h" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.4s;">
+                <HoverLettre lettre="n" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="o" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="g" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="i" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="e" />
+            </span>
+            <span class="inline-block animate-show-name ml-4" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="i" />
+            </span>
+            <span class="inline-block animate-show-name ml-4" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="u" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="s" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="e" />
+            </span>
+        </h1>
 
         <div class="lg:w-3/4 mx-auto">
             <div class="flex flex-wrap justify-center">
@@ -76,3 +147,12 @@
         </div>
     </div>
 </template>
+
+<script >
+import HoverLettre from "@/components/layouts/HoverLetter.vue";
+export default ({
+    components: {
+        HoverLettre
+    },
+})
+</script>

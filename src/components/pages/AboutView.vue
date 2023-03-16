@@ -12,7 +12,27 @@
         <!-- Title -->
         <h1 class="mb-4 text-6xl relative inline-block ml-10" style="font-family: 'Barnacle Boy', sans-serif;"
             data-aos="fade-right" data-aos-duration="1000">
-            About Me
+            <span class="inline-block animate-show-name">
+                <HoverLettre lettre="A" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.1s;">
+                <HoverLettre lettre="b" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.2s;">
+                <HoverLettre lettre="o" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.3s;">
+                <HoverLettre lettre="u" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.4s;">
+                <HoverLettre lettre="t" />
+            </span>
+            <span class="inline-block animate-show-name ml-4" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="m" />
+            </span>
+            <span class="inline-block animate-show-name" style="animation-duration: 1.5s;">
+                <HoverLettre lettre="e" />
+            </span>
         </h1>
         <div class="w-full before:content-['<'] after:content-['/>'] text-[#393939] ml-8"
             style="font-family: 'Dramaturgi Underground', sans-serif">h1</div>
@@ -55,9 +75,11 @@
 
 <script >
 import ButtonLayout from "@/components/layouts/ButtonLayout.vue";
+import HoverLettre from "@/components/layouts/HoverLetter.vue";
 export default ({
     components: {
-        ButtonLayout
+        ButtonLayout,
+        HoverLettre
     },
 })
 </script>
