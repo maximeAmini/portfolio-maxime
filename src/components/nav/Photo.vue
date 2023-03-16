@@ -1,7 +1,7 @@
 <template>
     <!-- photo -->
     <div
-        class="box overflow-hidden w-full drop-shadow-2xl lg:w-1/4 bg-[url('./img/photo.png')] bg-no-repeat bg-bottom shadow-lg lg:fixed lg:h-screen animate-wipe-enter text-white bg-[#1E1F21]">
+        class="box overflow-hidden w-full drop-shadow-2xl lg:w-1/4 bg-[url('./img/photo.png')] bg-no-repeat bg-bottom shadow-lg lg:fixed lg:h-screen animate-wipe-enter">
         <div class="mt-8 pb-12 h-full text-center flex flex-wrap justify-center ">
             <div class="w-full">
                 <h1 class="w-full text-4xl font-bold" style="font-family: 'Barnacle Boy', sans-serif;">
