@@ -1,5 +1,5 @@
 <template>
-    <nav class="bg-[#1E1F21] fixed h-screen pb-4 flex flex-wrap z-40 text-xl #1A1B1D" :class="show ? 'w-52' : 'w-16'">
+    <nav class="bg-[#1E1F21] fixed h-screen pb-4 flex flex-wrap z-40 text-xl #1A1B1D transition-all ease-in-out duration-200" :class="show ? 'w-52' : 'w-16'">
         <!-- Bars -->
         <div class="w-full text-2xl">
             <div class="w-full h-16 bg-[#FD8D3E] flex items-center" :class="show ? 'justify-start pl-4' : 'justify-center'"

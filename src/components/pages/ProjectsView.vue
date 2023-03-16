@@ -45,19 +45,21 @@
                             class="-mr-4 -mb-4 w-12 h-12 rounded bg-[#252022] text-white text-xl flex items-center justify-center group-hover:w-52 group-hover:h-52 group-hover:mr-0 group-hover:mb-0 group-hover:bg-[#252022]/50 group-hover:text-3xl ease-in-out duration-300">
                             01</div>
                     </div>
-                    <h4 class="w-52 text-lg font-extralight mt-2">Itconsdev</h4>
+                    <h4 class="w-52 text-2xl font-extralight mt-2"
+                        style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Itconsdev</h4>
                 </a>
 
                 <a class="block mx-auto group" href="https://www.itconsdev.com/logiciels/628a49db085724fdae781f85"
                     target="_blank" data-aos="zoom-in" data-aos-duration="1500">
                     <div
-                        class="h-52 w-52 bg-[url('./img/sgs.png')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end justify-end mt-8 lg:mt-16 lg:ml-auto">
+                        class="h-52 w-52 bg-[url('./img/sgs.jpg')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end justify-end mt-8 lg:mt-16 lg:ml-auto">
                         <div
                             class="-mr-4 -mb-4 w-12 h-12 rounded bg-[#252022] text-white text-xl flex items-center justify-center group-hover:w-52 group-hover:h-52 group-hover:mr-0 group-hover:mb-0 group-hover:bg-[#252022]/50 group-hover:text-3xl ease-in-out duration-300">
                             02</div>
                     </div>
 
-                    <h4 class="w-52 text-lg font-extralight mt-2">Sgs from Itconsdev</h4>
+                    <h4 class="w-52 text-2xl font-extralight mt-2"
+                        style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Sgs from Itconsdev</h4>
                 </a>
 
                 <a class="group block" href="http://www.giuseppecabizzosu.it/" target="_blank" data-aos="zoom-in"
@@ -69,7 +71,51 @@
                             03</div>
 
                     </div>
-                    <h4 class="w-52 text-lg font-extralight mt-2">Giuseppe Cabizzosu</h4>
+                    <h4 class="w-52 text-2xl font-extralight mt-2"
+                        style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Giuseppe Cabizzosu</h4>
+                </a>
+
+            </div>
+
+            <!-- Second Line -->
+            <div class="flex flex-wrap px-8">
+
+                <a class="mx-auto lg:mx-0 group block" href="https://github.com/maximeAmini/Doc-App" target="_blank" data-aos="zoom-in"
+                    data-aos-duration="500">
+                    <div
+                        class="h-52 w-52 bg-[url('./img/doc.png')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end mt-8 justify-end">
+                        <div
+                            class="-mr-4 -mb-4 w-12 h-12 rounded bg-[#252022] text-white text-xl flex items-center justify-center group-hover:w-52 group-hover:h-52 group-hover:mr-0 group-hover:mb-0 group-hover:bg-[#252022]/50 group-hover:text-3xl ease-in-out duration-300">
+                            04</div>
+                    </div>
+                    <h4 class="w-52 text-2xl font-extralight mt-2"
+                        style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Smart Doc</h4>
+                </a>
+
+                <a class="block mx-0 lg:mx-auto group" href="https://github.com/maximeAmini/Smart-Grid-Simulation-API"
+                    target="_blank" data-aos="zoom-in" data-aos-duration="1500">
+                    <div
+                        class="h-52 w-52 bg-[url('./img/api.jpg')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end justify-end mt-8 lg:mt-16 lg:ml-auto">
+                        <div
+                            class="-mr-4 -mb-4 w-12 h-12 rounded bg-[#252022] text-white text-xl flex items-center justify-center group-hover:w-52 group-hover:h-52 group-hover:mr-0 group-hover:mb-0 group-hover:bg-[#252022]/50 group-hover:text-3xl ease-in-out duration-300">
+                            05</div>
+                    </div>
+
+                    <h4 class="w-52 text-2xl font-extralight mt-2"
+                        style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Smart Grid Simulation API</h4>
+                </a>
+
+                <a class="mx-auto lg:mx-0 group block" href="https://github.com/maximeAmini?tab=repositories" target="_blank" data-aos="zoom-in"
+                    data-aos-duration="2000">
+                    <div
+                        class="h-52 w-52 bg-[url('./img/other.jpg')] bg-no-repeat bg-cover bg-center rounded-lg flex items-end justify-end mt-8 lg:mt-28 lg:ml-auto">
+                        <div
+                            class="-mr-4 -mb-4 w-12 h-12 rounded bg-[#252022] text-white text-xl flex items-center justify-center group-hover:w-52 group-hover:h-52 group-hover:mr-0 group-hover:mb-0 group-hover:bg-[#252022]/50 group-hover:text-3xl ease-in-out duration-300 delay-300">
+                            06</div>
+
+                    </div>
+                    <h4 class="w-52 text-2xl font-extralight mt-2"
+                        style="font-family: 'Qundeasy Only For Personal Use', sans-serif;">Other Projects</h4>
                 </a>
 
             </div>
